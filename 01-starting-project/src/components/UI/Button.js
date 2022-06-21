@@ -5,7 +5,7 @@ const Button = (props) => {
 
     return(
         <div>
-            <button type={props.type || "button"} onClick={props.clickHandler}>{props.children}</button>
+            <button type={props.type || "button"} onClick={props.clickHandler} value={props.value}>{props.children}</button>
         </div>
     );
         
